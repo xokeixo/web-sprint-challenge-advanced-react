@@ -35,8 +35,8 @@ export default class PlantList extends Component {
               <p>{plant.description}</p>
               <div className="plant-bottom-row">
                 <p>${plant.price}</p>
-                <p>☀️ {plant.light}</p>
-                <p>💦 {plant.watering}x/month</p>
+                <span role='img' aria-label='img'>☀️ {plant.light}</span>
+                <span role='img' aria-label='img'>💦 {plant.watering}x/month</span>
               </div>
               <button
                 className="plant-button"
